@@ -22,9 +22,9 @@ export class FridayComponent implements OnInit {
   isClicked(obj){
     obj.isValid=false;
   }
+
+  /** addcart function will store cart data to dataService ***/
   addCart(uname){
-    //this.proCount=uname.value;
-   /// console.log('friday',uname)
     this._FoodServices.setCartValueObject(uname);
   }
 
