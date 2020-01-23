@@ -1,0 +1,28 @@
+.page-area{
+    margin: 0;
+    padding: 0;  
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image: url(/assets/foodimage1.jpeg); 
+    }
+    25%{
+        background-image: url(/assets/im2.jpeg); 
+    }
+    50%{
+        background-image: url(/assets/im3.jpeg); 
+    }
+    75%{
+        background-image: url(/assets/im4.jpeg); 
+    }
+}
+
+.btn{
+    margin-top: 50vh;
+    margin-left: 38%;
+}

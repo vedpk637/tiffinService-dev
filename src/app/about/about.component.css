@@ -1,0 +1,30 @@
+.card-img-top{
+    padding: 80px;
+    border-radius: 300px;
+    margin-top: 10px;
+}
+.card{
+    border-width: 0px;
+}
+.btn{
+    margin-right: 30px;
+}
+.meals{
+    float: right;
+    
+}
+.about-head{
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(5, 26, 14);
+    background-image: url(../../../src/assets/sabji/about-us-banner.png);
+    size: cover;
+    height: fit-content;
+}
+.btm{
+    background-image: url(../../assets/sabji/about-us-bg-banner-2.jpg);
+    height: 200px;
+    color: rgb(250, 52, 3);
+
+    padding-top: 40px;
+}

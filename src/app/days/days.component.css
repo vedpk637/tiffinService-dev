@@ -1,0 +1,15 @@
+
+.card-header{
+    background-color: #337ab7;
+}
+.nav-link{
+   
+    color:white;
+    font-size:large;
+    font-weight: bold;
+    border: none;
+}
+.nav-item{
+    margin: 2px 0px;
+    border-right: 1px;
+}

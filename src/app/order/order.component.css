@@ -1,0 +1,31 @@
+.container{
+    margin: auto;
+    padding: auto;
+}
+.form-input{
+    border: 1px solid rgb(168, 168, 168);
+}
+.delivery{
+    border: 1px solid rgb(168, 168, 168);
+    background-color: rgb(199, 199, 199);
+    padding: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.form-input{
+    margin-top: 17px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.card-img-top{
+    padding: 2px;
+}
+.imgt{
+    margin-top: 15px;
+}
+.bt-text{
+    padding: 10px 13px;
+    background-color: rgb(206, 206, 206);
+    width: 100%; 
+}
+

@@ -1,0 +1,11 @@
+.cont-head{
+    color: red;
+    text-align: center;
+    margin: 30px 0;
+    font-weight: bolder;
+}
+.cont-text{
+    color: green;
+    text-align: center;
+    margin: 20px 0;
+}

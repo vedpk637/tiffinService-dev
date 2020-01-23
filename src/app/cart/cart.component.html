@@ -1,0 +1,28 @@
+<div class="container" style="min-height: 100vh;">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<table class="table container my-3">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Item No</th>
+            <th scope="col">Name</th>
+            <th scope="col">Qty</th>
+            <th scope="col">Price</th>
+            <th scope="col">Remove</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of cartValueDAta; index as i">
+            <td>{{i+1}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.qty}}</td>
+            <td>{{item.price}}</td>
+            <td><i class="fa fa-trash" (click) = "onclick(item)"></i></td>
+                
+        </tr>
+    </tbody>
+    <h3 style="color: red;" *ngIf = "items.length == 0"> Please select from cart!!!!</h3>
+</table>
+
+
+
+</div>

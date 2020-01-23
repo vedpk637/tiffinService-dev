@@ -1,0 +1,29 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+.footer {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(93, 93, 219);
+    color: white;
+    text-align: center;
+  }
+  .footer-text{
+      text-align: left;
+      margin: 5px 0;
+      margin-left: 50px;
+  }
+  .btn{
+      background-color: rgb(175, 192, 24);
+      padding: 20px 40px;
+      margin-top: 50px;
+      margin-left: 150px;
+      width: 200px;
+  }
+  .footer-bottom{
+      background-color: black;
+      color: white;
+      text-align-last: right;  
+  }

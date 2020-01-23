@@ -1,0 +1,38 @@
+<div class="page-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <div class="alert alert-primary mt-2" role="alert" *ngIf="isAdded">
+               <div>{{product}} is added to cart. <button class="btn btn-success btn-sm" style="float: right;">Check Out</button></div>
+              </div>
+                <div class="card text-center my-2">
+                    <app-days></app-days>
+                      
+                    <router-outlet></router-outlet>
+                    <!-- food item starts here on..-->
+                    
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-md-3 py-2"  *ngFor = "let data of arr">
+                          <div class="card" >
+                            <img src="../../assets/sabji/sabji1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">{{data.name}}</h5>
+                              
+                              <span style="font-weight: bold; font-size: 20px;">&#8377; {{data.price}}</span>
+                              <div>
+                                <button class="btn btn-primary btn-sm my-2" *ngIf="data.isValid" (click)="onAddPro(data)">Add To Cart</button>
+                              </div>
+                              <div *ngIf="!data.isValid">
+                                <a class="btn btn-primary btn-sm my-2" routerLink="cart">Go To Cart</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>                         
+        </div>
+    </div>
+</div>
