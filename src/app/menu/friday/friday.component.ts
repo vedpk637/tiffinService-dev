@@ -10,8 +10,6 @@ export class FridayComponent implements OnInit {
   Lunch=[];
   Dinner=[];
   isValid:boolean;
-  proCount:number;
-  inputValue:string;
   constructor(private _FoodServices:DataserviceService) { }
 
 

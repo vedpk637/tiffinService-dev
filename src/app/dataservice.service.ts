@@ -34,9 +34,9 @@ Dinner=[
 
 
 
- products():Observable<any>{
-   return this.http.get('https://jsonplaceholder.typicode.com/users')
- }
+/* products():Observable<any>{
+  return this.http.get('https://jsonplaceholder.typicode.com/users')
+}*/
 
   
   setCartValueObject(data){

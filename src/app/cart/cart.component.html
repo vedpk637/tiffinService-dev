@@ -16,11 +16,11 @@
             <td>{{item.name}}</td>
             <td>{{item.qty}}</td>
             <td>{{item.price}}</td>
-            <td><i class="fa fa-trash" (click) = "onclick(item)"></i></td>
+            <td><button style="color: red;"><i class="fa fa-trash" (click) = "onclick(item)"></i></button></td>
                 
         </tr>
     </tbody>
-    <h3 style="color: red;" *ngIf = "items.length == 0"> Please select from cart!!!!</h3>
+    <h3 style="color: red;" *ngIf = "cartValueDAta.length == 0"> Please select from cart!!!!</h3>
 </table>
 
 
